@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdf2e9; /* Light orange tint */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-container {
+    background: white;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.header {
+    background-color: #e67e22; /* Orange for Teachers */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 { margin: 0; font-size: 24px; }
+.header p { margin: 5px 0 0; opacity: 0.8; }
+
+.info-section { padding: 25px; }
+.info-section p { margin: 15px 0; font-size: 16px; color: #444; border-bottom: 1px solid #f0f0f0; padding-bottom: 5px; }
+
+.action-section { text-align: center; padding-bottom: 20px; }
+.btn-action {
+    display: inline-block;
+    background-color: #27ae60;
+    color: white;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+.btn-action:hover { transform: scale(1.05); background-color: #219150; }
+
+.footer { padding: 20px; text-align: center; background-color: #fafafa; border-top: 1px solid #eee; }
+.btn-logout { text-decoration: none; color: #7f8c8d; font-size: 14px; }
+.btn-logout:hover { color: #333; }
