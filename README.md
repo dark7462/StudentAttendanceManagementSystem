@@ -110,11 +110,9 @@ Update your MySQL credentials:
 2.  **Access the App:**\
     Open your browser and go to:
 
-```{=html}
-<!-- -->
-```
+```bash
     http://localhost:8080/
-
+```
 ------------------------------------------------------------------------
 
 ### Dummy Data for Testing
